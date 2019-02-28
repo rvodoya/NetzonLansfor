@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>jordfelsbytare</name>
+   <tag></tag>
+   <elementGuidId>6e62b5ad-e0ee-4a87-b7fa-930d7758f603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-firesafety/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[3]/div[2]/div/app-radio/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

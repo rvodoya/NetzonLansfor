@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Varvattemenberedaren</name>
+   <tag></tag>
+   <elementGuidId>1afffe4f-765c-43ee-a84b-6ec1feecfcec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-water-heater/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[2]/div[2]/div/app-radio/div[1]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

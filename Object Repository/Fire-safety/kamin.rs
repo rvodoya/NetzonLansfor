@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>kamin</name>
+   <tag></tag>
+   <elementGuidId>a6d7cddc-2b60-479e-9afc-399c8bf70e21</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-firesafety/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[4]/div[2]/div/app-radio/div[1]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

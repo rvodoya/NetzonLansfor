@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>samtliga</name>
+   <tag></tag>
+   <elementGuidId>e80e1046-fd79-48bb-979d-24db69ed69f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-kitchen/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[6]/div[2]/div/app-radio/div[2]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
