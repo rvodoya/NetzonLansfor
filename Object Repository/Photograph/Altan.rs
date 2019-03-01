@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Altan</name>
+   <tag></tag>
+   <elementGuidId>8bd6f4f1-db8d-4ade-b4ef-da73dbc36fb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-photograph/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[4]/div/div/div/div[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

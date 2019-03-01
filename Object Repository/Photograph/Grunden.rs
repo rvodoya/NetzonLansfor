@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Grunden</name>
+   <tag></tag>
+   <elementGuidId>bdf4d80e-881f-46e3-bec8-8024d039bb08</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-photograph/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[8]/div/div/div/div[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -178,5 +178,35 @@ WebUI.click(findTestObject('Fire-safety/Nasta'))
 
 WebUI.delay(2)
 
+WebUI.uploadFile(findTestObject('Photograph/Villan'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\junker.jpg')
+
+WebUI.uploadFile(findTestObject('Photograph/Altan'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\chateau.jpg')
+
+WebUI.uploadFile(findTestObject('Photograph/Garage'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\busan2.jpg')
+
+WebUI.uploadFile(findTestObject('Photograph/Grunden'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\busan1.jpg')
+
+WebUI.uploadFile(findTestObject('Photograph/Eventuella'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\petra.jpg')
+
+WebUI.setText(findTestObject('Photograph/Ovrig kommentar'), 'Lorem Ipsum Dolor Sit Amet')
+
+WebUI.click(findTestObject('Photograph/Nasta'))
+
+WebUI.click(findTestObject('Close/Nej Tack'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Skicka in'))
+
+WebUI.setText(findTestObject('Ort och datum'), 'Lorem Ipsum Dolor Sit Amet')
+
+WebUI.setText(findTestObject('Namn Textbox'), 'Lorem Ipsum Dolor Sit Amet')
+
+WebUI.click(findTestObject('Skicka In Popup'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Slipp'))
+
 WebUI.closeBrowser()
 

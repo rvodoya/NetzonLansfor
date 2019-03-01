@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Eventuella</name>
+   <tag></tag>
+   <elementGuidId>7bd7cc94-783d-4882-8286-4c9a784329b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-photograph/div/div[2]/div/div[contains(@class,'detail-wrapper')]/div[10]/div/div/div/div[2]/div/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
