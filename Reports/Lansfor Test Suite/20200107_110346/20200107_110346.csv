@@ -1,0 +1,132 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Lansfor Test Suite,Chrome 79.0.3945.88,,2020-01-07 11:03:56,2020-01-07 11:06:18,2m - 22.499s,PASSED
+,,,,,,
+Test Cases/Fill all the fields,Chrome 79.0.3945.88,,2020-01-07 11:03:56,2020-01-07 11:05:15,1m - 18.578s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.88,,2020-01-07 11:03:57,2020-01-07 11:04:03,5.616s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,2020-01-07 11:04:03,2020-01-07 11:04:04,1.294s,PASSED
+"navigateToUrl(""https://dev.lansforsakringar.smash.netzon.se/#/checklist"")",Chrome 79.0.3945.88,,2020-01-07 11:04:04,2020-01-07 11:04:27,23.130s,PASSED
+"setText(findTestObject(""Personal Info/Namn""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:27,2020-01-07 11:04:28,0.712s,PASSED
+"setText(findTestObject(""Personal Info/Personnummer""), ""890521-5094"")",Chrome 79.0.3945.88,,2020-01-07 11:04:28,2020-01-07 11:04:28,0.319s,PASSED
+"setText(findTestObject(""Personal Info/Forsakringnummer""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:28,2020-01-07 11:04:29,0.519s,PASSED
+"setText(findTestObject(""Personal Info/Utdelningsaddress""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:29,2020-01-07 11:04:29,0.582s,PASSED
+"setText(findTestObject(""Personal Info/Postnummer""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:29,2020-01-07 11:04:30,0.495s,PASSED
+"setText(findTestObject(""Personal Info/Telefon""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:30,2020-01-07 11:04:30,0.500s,PASSED
+"setText(findTestObject(""Personal Info/Mobiltelefon""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:30,2020-01-07 11:04:31,0.483s,PASSED
+"setText(findTestObject(""Personal Info/E-post""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:31,2020-01-07 11:04:31,0.563s,PASSED
+"setText(findTestObject(""Personal Info/Villans""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:31,2020-01-07 11:04:32,0.503s,PASSED
+"setText(findTestObject(""Personal Info/Huvudsaktlig""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:32,2020-01-07 11:04:32,0.492s,PASSED
+"click(findTestObject(""Personal Info/Inbrottslarm""))",Chrome 79.0.3945.88,,2020-01-07 11:04:32,2020-01-07 11:04:32,0.162s,PASSED
+"setText(findTestObject(""Personal Info/Typ Av""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:32,2020-01-07 11:04:33,0.547s,PASSED
+"uploadFile(findTestObject(""Personal Info/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:33,2020-01-07 11:04:33,0.116s,PASSED
+"setText(findTestObject(""Personal Info/Ovrig""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:33,2020-01-07 11:04:33,0.514s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:33,2020-01-07 11:04:36,2.054s,PASSED
+"click(findTestObject(""Personal Info/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:36,2020-01-07 11:04:36,0.154s,PASSED
+"setText(findTestObject(""Kitchen/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:36,2020-01-07 11:04:36,0.509s,PASSED
+"click(findTestObject(""Kitchen/Ar nagon""))",Chrome 79.0.3945.88,,2020-01-07 11:04:36,2020-01-07 11:04:36,0.119s,PASSED
+"click(findTestObject(""Kitchen/Finns""))",Chrome 79.0.3945.88,,2020-01-07 11:04:36,2020-01-07 11:04:36,0.128s,PASSED
+"click(findTestObject(""Kitchen/kyl och frys""))",Chrome 79.0.3945.88,,2020-01-07 11:04:36,2020-01-07 11:04:37,0.117s,PASSED
+"click(findTestObject(""Kitchen/Vatten""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.133s,PASSED
+"click(findTestObject(""Kitchen/Finns""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.113s,PASSED
+"click(findTestObject(""Kitchen/samtliga""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.119s,PASSED
+"click(findTestObject(""Kitchen/alla ror""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.134s,PASSED
+"click(findTestObject(""Kitchen/fria fran""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.116s,PASSED
+"click(findTestObject(""Kitchen/stumt fastmorande""))",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:37,0.188s,PASSED
+"uploadFile(findTestObject(""Kitchen/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:37,2020-01-07 11:04:38,0.148s,PASSED
+"setText(findTestObject(""Kitchen/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:38,2020-01-07 11:04:38,0.390s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:38,2020-01-07 11:04:40,2.004s,PASSED
+"click(findTestObject(""Kitchen/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:40,2020-01-07 11:04:40,0.130s,PASSED
+"setText(findTestObject(""Laundry/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:40,2020-01-07 11:04:41,0.571s,PASSED
+"setText(findTestObject(""Laundry/Ytmaterial""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:41,2020-01-07 11:04:41,0.519s,PASSED
+"click(findTestObject(""Laundry/renovering""))",Chrome 79.0.3945.88,,2020-01-07 11:04:41,2020-01-07 11:04:41,0.114s,PASSED
+"click(findTestObject(""Laundry/vattentat""))",Chrome 79.0.3945.88,,2020-01-07 11:04:41,2020-01-07 11:04:41,0.134s,PASSED
+"click(findTestObject(""Laundry/narmast""))",Chrome 79.0.3945.88,,2020-01-07 11:04:41,2020-01-07 11:04:42,0.117s,PASSED
+"click(findTestObject(""Laundry/Finns det""))",Chrome 79.0.3945.88,,2020-01-07 11:04:42,2020-01-07 11:04:42,0.130s,PASSED
+"uploadFile(findTestObject(""Laundry/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:42,2020-01-07 11:04:42,0.119s,PASSED
+"setText(findTestObject(""Laundry/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:42,2020-01-07 11:04:42,0.352s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:42,2020-01-07 11:04:44,2.003s,PASSED
+"click(findTestObject(""Laundry/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:44,2020-01-07 11:04:44,0.157s,PASSED
+"setText(findTestObject(""Bathroom/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:44,2020-01-07 11:04:45,0.585s,PASSED
+"setText(findTestObject(""Bathroom/Ytmaterial""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:45,2020-01-07 11:04:45,0.315s,PASSED
+"click(findTestObject(""Bathroom/renovering""))",Chrome 79.0.3945.88,,2020-01-07 11:04:45,2020-01-07 11:04:45,0.137s,PASSED
+"click(findTestObject(""Bathroom/duschstang""))",Chrome 79.0.3945.88,,2020-01-07 11:04:45,2020-01-07 11:04:45,0.116s,PASSED
+"click(findTestObject(""Bathroom/golvytan""))",Chrome 79.0.3945.88,,2020-01-07 11:04:45,2020-01-07 11:04:46,0.117s,PASSED
+"click(findTestObject(""Bathroom/kann pa klamringen""))",Chrome 79.0.3945.88,,2020-01-07 11:04:46,2020-01-07 11:04:46,0.132s,PASSED
+"click(findTestObject(""Bathroom/Finns det nagra""))",Chrome 79.0.3945.88,,2020-01-07 11:04:46,2020-01-07 11:04:46,0.136s,PASSED
+"uploadFile(findTestObject(""Bathroom/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:46,2020-01-07 11:04:46,0.135s,PASSED
+"setText(findTestObject(""Bathroom/Information""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:46,2020-01-07 11:04:47,0.587s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:47,2020-01-07 11:04:49,2.002s,PASSED
+"click(findTestObject(""Bathroom/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:49,2020-01-07 11:04:49,0.120s,PASSED
+"setText(findTestObject(""Water Heater/var i huset""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:49,2020-01-07 11:04:49,0.527s,PASSED
+"click(findTestObject(""Water Heater/Varvattemenberedaren""))",Chrome 79.0.3945.88,,2020-01-07 11:04:49,2020-01-07 11:04:49,0.107s,PASSED
+"click(findTestObject(""Water Heater/golvytan""))",Chrome 79.0.3945.88,,2020-01-07 11:04:49,2020-01-07 11:04:49,0.133s,PASSED
+"setText(findTestObject(""Water Heater/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:49,2020-01-07 11:04:50,0.342s,PASSED
+"click(findTestObject(""Water Heater/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:50,0.132s,PASSED
+"click(findTestObject(""Heat/i huset""))",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:50,0.109s,PASSED
+"click(findTestObject(""Heat/star""))",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:50,0.131s,PASSED
+"click(findTestObject(""Heat/Ar det""))",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:50,0.116s,PASSED
+"uploadFile(findTestObject(""Heat/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:50,0.075s,PASSED
+"setText(findTestObject(""Heat/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:50,2020-01-07 11:04:51,0.580s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:51,2020-01-07 11:04:53,2.003s,PASSED
+"click(findTestObject(""Heat/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:53,2020-01-07 11:04:53,0.129s,PASSED
+"click(findTestObject(""Other-water/finns huvudav""))",Chrome 79.0.3945.88,,2020-01-07 11:04:53,2020-01-07 11:04:53,0.127s,PASSED
+"click(findTestObject(""Other-water/Ar vatten""))",Chrome 79.0.3945.88,,2020-01-07 11:04:53,2020-01-07 11:04:53,0.164s,PASSED
+"click(findTestObject(""Other-water/finns vattem""))",Chrome 79.0.3945.88,,2020-01-07 11:04:53,2020-01-07 11:04:54,0.187s,PASSED
+"setText(findTestObject(""Other-water/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:54,2020-01-07 11:04:54,0.425s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:54,2020-01-07 11:04:56,2.003s,PASSED
+"click(findTestObject(""Other-water/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:56,2020-01-07 11:04:56,0.133s,PASSED
+"click(findTestObject(""Fire-safety/brandvarnare""))",Chrome 79.0.3945.88,,2020-01-07 11:04:56,2020-01-07 11:04:56,0.113s,PASSED
+"click(findTestObject(""Fire-safety/branslackare""))",Chrome 79.0.3945.88,,2020-01-07 11:04:56,2020-01-07 11:04:56,0.121s,PASSED
+"click(findTestObject(""Fire-safety/jordfelsbytare""))",Chrome 79.0.3945.88,,2020-01-07 11:04:56,2020-01-07 11:04:56,0.117s,PASSED
+"click(findTestObject(""Fire-safety/kamin""))",Chrome 79.0.3945.88,,2020-01-07 11:04:56,2020-01-07 11:04:57,0.120s,PASSED
+"click(findTestObject(""Fire-safety/ar denna""))",Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:57,0.145s,PASSED
+"click(findTestObject(""Fire-safety/forvaras""))",Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:57,0.119s,PASSED
+"uploadFile(findTestObject(""Fire-safety/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:57,0.084s,PASSED
+"setText(findTestObject(""Fire-safety/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:57,0.386s,PASSED
+"click(findTestObject(""Fire-safety/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:57,0.122s,PASSED
+delay(2),Chrome 79.0.3945.88,,2020-01-07 11:04:57,2020-01-07 11:04:59,2.001s,PASSED
+"uploadFile(findTestObject(""Photograph/Villan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:04:59,2020-01-07 11:05:00,0.085s,PASSED
+"uploadFile(findTestObject(""Photograph/Altan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.097s,PASSED
+"uploadFile(findTestObject(""Photograph/Garage""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.087s,PASSED
+"uploadFile(findTestObject(""Photograph/Grunden""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.061s,PASSED
+"uploadFile(findTestObject(""Photograph/Eventuella""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.080s,PASSED
+"setText(findTestObject(""Photograph/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.470s,PASSED
+"click(findTestObject(""Photograph/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:00,0.122s,PASSED
+"click(findTestObject(""Close/Nej Tack""))",Chrome 79.0.3945.88,,2020-01-07 11:05:00,2020-01-07 11:05:01,0.108s,PASSED
+delay(4),Chrome 79.0.3945.88,,2020-01-07 11:05:01,2020-01-07 11:05:05,4.003s,PASSED
+"click(findTestObject(""Skicka in""))",Chrome 79.0.3945.88,,2020-01-07 11:05:05,2020-01-07 11:05:05,0.148s,PASSED
+"setText(findTestObject(""Ort och datum""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:05:05,2020-01-07 11:05:05,0.535s,PASSED
+"setText(findTestObject(""Namn Textbox""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:05:05,2020-01-07 11:05:06,0.482s,PASSED
+"click(findTestObject(""Skicka In Popup""))",Chrome 79.0.3945.88,,2020-01-07 11:05:06,2020-01-07 11:05:06,0.137s,PASSED
+delay(4),Chrome 79.0.3945.88,,2020-01-07 11:05:06,2020-01-07 11:05:10,4.002s,PASSED
+"click(findTestObject(""Slipp""))",Chrome 79.0.3945.88,,2020-01-07 11:05:10,2020-01-07 11:05:14,3.848s,PASSED
+closeBrowser(),Chrome 79.0.3945.88,,2020-01-07 11:05:14,2020-01-07 11:05:15,0.889s,PASSED
+,,,,,,
+Test Cases/Fill important fields,Chrome 79.0.3945.88,,2020-01-07 11:05:15,2020-01-07 11:06:18,1m - 3.333s,PASSED
+"openBrowser("""")",Chrome 79.0.3945.88,,2020-01-07 11:05:15,2020-01-07 11:05:17,2.410s,PASSED
+maximizeWindow(),Chrome 79.0.3945.88,,2020-01-07 11:05:17,2020-01-07 11:05:19,1.134s,PASSED
+"navigateToUrl(""https://dev.lansforsakringar.smash.netzon.se/#/checklist"")",Chrome 79.0.3945.88,,2020-01-07 11:05:19,2020-01-07 11:05:59,40.792s,PASSED
+"setText(findTestObject(""Personal Info/Namn""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:05:59,2020-01-07 11:06:00,0.689s,PASSED
+"setText(findTestObject(""Personal Info/Personnummer""), ""890521-5094"")",Chrome 79.0.3945.88,,2020-01-07 11:06:00,2020-01-07 11:06:00,0.338s,PASSED
+"setText(findTestObject(""Personal Info/Utdelningsaddress""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:06:00,2020-01-07 11:06:01,0.589s,PASSED
+"setText(findTestObject(""Personal Info/Postnummer""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:06:01,2020-01-07 11:06:02,0.669s,PASSED
+"setText(findTestObject(""Personal Info/E-post""), ""Lorem ipsum dolor sit amet"")",Chrome 79.0.3945.88,,2020-01-07 11:06:02,2020-01-07 11:06:02,0.611s,PASSED
+"click(findTestObject(""Personal Info/Inbrottslarm""))",Chrome 79.0.3945.88,,2020-01-07 11:06:02,2020-01-07 11:06:02,0.204s,PASSED
+"click(findTestObject(""Personal Info/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:02,2020-01-07 11:06:03,0.222s,PASSED
+"click(findTestObject(""Kitchen/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.138s,PASSED
+"click(findTestObject(""Laundry/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.124s,PASSED
+"click(findTestObject(""Bathroom/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.124s,PASSED
+"click(findTestObject(""Water Heater/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.125s,PASSED
+"click(findTestObject(""Heat/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.118s,PASSED
+"click(findTestObject(""Other-water/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:03,0.113s,PASSED
+"click(findTestObject(""Fire-safety/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:03,2020-01-07 11:06:04,0.119s,PASSED
+"uploadFile(findTestObject(""Photograph/Villan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Chrome 79.0.3945.88,,2020-01-07 11:06:04,2020-01-07 11:06:04,0.072s,PASSED
+"click(findTestObject(""Photograph/Nasta""))",Chrome 79.0.3945.88,,2020-01-07 11:06:04,2020-01-07 11:06:04,0.124s,PASSED
+delay(4),Chrome 79.0.3945.88,,2020-01-07 11:06:04,2020-01-07 11:06:08,4.002s,PASSED
+"click(findTestObject(""Close/Nej Tack""))",Chrome 79.0.3945.88,,2020-01-07 11:06:08,2020-01-07 11:06:08,0.134s,PASSED
+delay(4),Chrome 79.0.3945.88,,2020-01-07 11:06:08,2020-01-07 11:06:12,4.002s,PASSED
+"click(findTestObject(""Skicka in""))",Chrome 79.0.3945.88,,2020-01-07 11:06:12,2020-01-07 11:06:12,0.139s,PASSED
+"setText(findTestObject(""Ort och datum""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:06:12,2020-01-07 11:06:13,0.525s,PASSED
+"setText(findTestObject(""Namn Textbox""), ""Lorem Ipsum Dolor Sit Amet"")",Chrome 79.0.3945.88,,2020-01-07 11:06:13,2020-01-07 11:06:13,0.563s,PASSED
+"click(findTestObject(""Skicka In Popup""))",Chrome 79.0.3945.88,,2020-01-07 11:06:13,2020-01-07 11:06:13,0.114s,PASSED
+delay(4),Chrome 79.0.3945.88,,2020-01-07 11:06:13,2020-01-07 11:06:17,4.003s,PASSED
+closeBrowser(),Chrome 79.0.3945.88,,2020-01-07 11:06:17,2020-01-07 11:06:18,0.705s,PASSED

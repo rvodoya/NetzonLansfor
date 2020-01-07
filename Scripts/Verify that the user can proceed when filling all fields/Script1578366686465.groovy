@@ -188,6 +188,8 @@ WebUI.uploadFile(findTestObject('Photograph/Grunden'), 'C:\\Users\\netzon.rhober
 
 WebUI.uploadFile(findTestObject('Photograph/Eventuella'), 'C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Data Files\\petra.jpg')
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Photograph/Ovrig kommentar'), 'Lorem Ipsum Dolor Sit Amet')
 
 WebUI.click(findTestObject('Photograph/Nasta'))

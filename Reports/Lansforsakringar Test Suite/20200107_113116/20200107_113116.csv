@@ -1,0 +1,139 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Lansforsakringar Test Suite,Firefox 70.0,,2020-01-07 11:31:27,2020-01-07 11:34:20,2m - 52.948s,FAILED
+,,,,,,
+Test Cases/Verify that the user can proceed when filling all fields,Firefox 70.0,,2020-01-07 11:31:27,2020-01-07 11:33:01,1m - 33.900s,FAILED
+"openBrowser("""")",Firefox 70.0,,2020-01-07 11:31:29,2020-01-07 11:31:39,9.992s,PASSED
+maximizeWindow(),Firefox 70.0,,2020-01-07 11:31:39,2020-01-07 11:31:39,0.446s,PASSED
+"navigateToUrl(""https://dev.lansforsakringar.smash.netzon.se/#/checklist"")",Firefox 70.0,,2020-01-07 11:31:39,2020-01-07 11:31:56,17.083s,PASSED
+"setText(findTestObject(""Personal Info/Namn""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:56,2020-01-07 11:31:57,0.277s,PASSED
+"setText(findTestObject(""Personal Info/Personnummer""), ""890521-5094"")",Firefox 70.0,,2020-01-07 11:31:57,2020-01-07 11:31:57,0.145s,PASSED
+"setText(findTestObject(""Personal Info/Forsakringnummer""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:57,2020-01-07 11:31:57,0.185s,PASSED
+"setText(findTestObject(""Personal Info/Utdelningsaddress""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:57,2020-01-07 11:31:57,0.175s,PASSED
+"setText(findTestObject(""Personal Info/Postnummer""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:57,2020-01-07 11:31:57,0.152s,PASSED
+"setText(findTestObject(""Personal Info/Telefon""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:57,2020-01-07 11:31:58,0.185s,PASSED
+"setText(findTestObject(""Personal Info/Mobiltelefon""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:58,0.177s,PASSED
+"setText(findTestObject(""Personal Info/E-post""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:58,0.166s,PASSED
+"setText(findTestObject(""Personal Info/Villans""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:58,0.186s,PASSED
+"setText(findTestObject(""Personal Info/Huvudsaktlig""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:58,0.146s,PASSED
+"click(findTestObject(""Personal Info/Inbrottslarm""))",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:58,0.294s,PASSED
+"setText(findTestObject(""Personal Info/Typ Av""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:31:58,2020-01-07 11:31:59,0.161s,PASSED
+"uploadFile(findTestObject(""Personal Info/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Firefox 70.0,,2020-01-07 11:31:59,2020-01-07 11:31:59,0.061s,PASSED
+"setText(findTestObject(""Personal Info/Ovrig""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:31:59,2020-01-07 11:31:59,0.140s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:31:59,2020-01-07 11:32:01,2.046s,PASSED
+"click(findTestObject(""Personal Info/Nasta""))",Firefox 70.0,,2020-01-07 11:32:01,2020-01-07 11:32:01,0.297s,PASSED
+"setText(findTestObject(""Kitchen/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:01,2020-01-07 11:32:01,0.199s,PASSED
+"click(findTestObject(""Kitchen/Ar nagon""))",Firefox 70.0,,2020-01-07 11:32:01,2020-01-07 11:32:02,0.279s,PASSED
+"click(findTestObject(""Kitchen/Finns""))",Firefox 70.0,,2020-01-07 11:32:02,2020-01-07 11:32:02,0.261s,PASSED
+"click(findTestObject(""Kitchen/kyl och frys""))",Firefox 70.0,,2020-01-07 11:32:02,2020-01-07 11:32:02,0.243s,PASSED
+"click(findTestObject(""Kitchen/Vatten""))",Firefox 70.0,,2020-01-07 11:32:02,2020-01-07 11:32:02,0.239s,PASSED
+"click(findTestObject(""Kitchen/Finns""))",Firefox 70.0,,2020-01-07 11:32:02,2020-01-07 11:32:03,0.238s,PASSED
+"click(findTestObject(""Kitchen/samtliga""))",Firefox 70.0,,2020-01-07 11:32:03,2020-01-07 11:32:03,0.241s,PASSED
+"click(findTestObject(""Kitchen/alla ror""))",Firefox 70.0,,2020-01-07 11:32:03,2020-01-07 11:32:03,0.238s,PASSED
+"click(findTestObject(""Kitchen/fria fran""))",Firefox 70.0,,2020-01-07 11:32:03,2020-01-07 11:32:03,0.242s,PASSED
+"click(findTestObject(""Kitchen/stumt fastmorande""))",Firefox 70.0,,2020-01-07 11:32:03,2020-01-07 11:32:04,0.255s,PASSED
+"uploadFile(findTestObject(""Kitchen/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"")",Firefox 70.0,,2020-01-07 11:32:04,2020-01-07 11:32:04,0.044s,PASSED
+"setText(findTestObject(""Kitchen/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:04,2020-01-07 11:32:04,0.165s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:04,2020-01-07 11:32:06,2.003s,PASSED
+"click(findTestObject(""Kitchen/Nasta""))",Firefox 70.0,,2020-01-07 11:32:06,2020-01-07 11:32:06,0.275s,PASSED
+"setText(findTestObject(""Laundry/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:06,2020-01-07 11:32:06,0.156s,PASSED
+"setText(findTestObject(""Laundry/Ytmaterial""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:06,2020-01-07 11:32:06,0.134s,PASSED
+"click(findTestObject(""Laundry/renovering""))",Firefox 70.0,,2020-01-07 11:32:06,2020-01-07 11:32:07,0.253s,PASSED
+"click(findTestObject(""Laundry/vattentat""))",Firefox 70.0,,2020-01-07 11:32:07,2020-01-07 11:32:07,0.245s,PASSED
+"click(findTestObject(""Laundry/narmast""))",Firefox 70.0,,2020-01-07 11:32:07,2020-01-07 11:32:07,0.235s,PASSED
+"click(findTestObject(""Laundry/Finns det""))",Firefox 70.0,,2020-01-07 11:32:07,2020-01-07 11:32:07,0.239s,PASSED
+"uploadFile(findTestObject(""Laundry/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"")",Firefox 70.0,,2020-01-07 11:32:07,2020-01-07 11:32:07,0.035s,PASSED
+"setText(findTestObject(""Laundry/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:07,2020-01-07 11:32:08,0.158s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:08,2020-01-07 11:32:10,2.004s,PASSED
+"click(findTestObject(""Laundry/Nasta""))",Firefox 70.0,,2020-01-07 11:32:10,2020-01-07 11:32:10,0.276s,PASSED
+"setText(findTestObject(""Bathroom/Bygg""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:10,2020-01-07 11:32:10,0.118s,PASSED
+"setText(findTestObject(""Bathroom/Ytmaterial""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:10,2020-01-07 11:32:10,0.132s,PASSED
+"click(findTestObject(""Bathroom/renovering""))",Firefox 70.0,,2020-01-07 11:32:10,2020-01-07 11:32:10,0.245s,PASSED
+"click(findTestObject(""Bathroom/duschstang""))",Firefox 70.0,,2020-01-07 11:32:10,2020-01-07 11:32:11,0.233s,PASSED
+"click(findTestObject(""Bathroom/golvytan""))",Firefox 70.0,,2020-01-07 11:32:11,2020-01-07 11:32:11,0.235s,PASSED
+"click(findTestObject(""Bathroom/kann pa klamringen""))",Firefox 70.0,,2020-01-07 11:32:11,2020-01-07 11:32:11,0.248s,PASSED
+"click(findTestObject(""Bathroom/Finns det nagra""))",Firefox 70.0,,2020-01-07 11:32:11,2020-01-07 11:32:11,0.256s,PASSED
+"uploadFile(findTestObject(""Bathroom/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Firefox 70.0,,2020-01-07 11:32:11,2020-01-07 11:32:11,0.043s,PASSED
+"setText(findTestObject(""Bathroom/Information""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:11,2020-01-07 11:32:12,0.135s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:12,2020-01-07 11:32:14,2.002s,PASSED
+"click(findTestObject(""Bathroom/Nasta""))",Firefox 70.0,,2020-01-07 11:32:14,2020-01-07 11:32:14,0.256s,PASSED
+"setText(findTestObject(""Water Heater/var i huset""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:14,2020-01-07 11:32:14,0.128s,PASSED
+"click(findTestObject(""Water Heater/Varvattemenberedaren""))",Firefox 70.0,,2020-01-07 11:32:14,2020-01-07 11:32:14,0.249s,PASSED
+"click(findTestObject(""Water Heater/golvytan""))",Firefox 70.0,,2020-01-07 11:32:14,2020-01-07 11:32:14,0.256s,PASSED
+"setText(findTestObject(""Water Heater/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:14,2020-01-07 11:32:15,0.143s,PASSED
+"click(findTestObject(""Water Heater/Nasta""))",Firefox 70.0,,2020-01-07 11:32:15,2020-01-07 11:32:15,0.260s,PASSED
+"click(findTestObject(""Heat/i huset""))",Firefox 70.0,,2020-01-07 11:32:15,2020-01-07 11:32:15,0.253s,PASSED
+"click(findTestObject(""Heat/star""))",Firefox 70.0,,2020-01-07 11:32:15,2020-01-07 11:32:15,0.259s,PASSED
+"click(findTestObject(""Heat/Ar det""))",Firefox 70.0,,2020-01-07 11:32:15,2020-01-07 11:32:16,0.233s,PASSED
+"uploadFile(findTestObject(""Heat/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"")",Firefox 70.0,,2020-01-07 11:32:16,2020-01-07 11:32:16,0.040s,PASSED
+"setText(findTestObject(""Heat/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:16,2020-01-07 11:32:16,0.154s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:16,2020-01-07 11:32:18,2.005s,PASSED
+"click(findTestObject(""Heat/Nasta""))",Firefox 70.0,,2020-01-07 11:32:18,2020-01-07 11:32:18,0.281s,PASSED
+"click(findTestObject(""Other-water/finns huvudav""))",Firefox 70.0,,2020-01-07 11:32:18,2020-01-07 11:32:18,0.257s,PASSED
+"click(findTestObject(""Other-water/Ar vatten""))",Firefox 70.0,,2020-01-07 11:32:18,2020-01-07 11:32:19,0.240s,PASSED
+"click(findTestObject(""Other-water/finns vattem""))",Firefox 70.0,,2020-01-07 11:32:19,2020-01-07 11:32:19,0.244s,PASSED
+"setText(findTestObject(""Other-water/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:19,2020-01-07 11:32:19,0.138s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:19,2020-01-07 11:32:21,2.002s,PASSED
+"click(findTestObject(""Other-water/Nasta""))",Firefox 70.0,,2020-01-07 11:32:21,2020-01-07 11:32:21,0.271s,PASSED
+"click(findTestObject(""Fire-safety/brandvarnare""))",Firefox 70.0,,2020-01-07 11:32:21,2020-01-07 11:32:21,0.231s,PASSED
+"click(findTestObject(""Fire-safety/branslackare""))",Firefox 70.0,,2020-01-07 11:32:21,2020-01-07 11:32:22,0.230s,PASSED
+"click(findTestObject(""Fire-safety/jordfelsbytare""))",Firefox 70.0,,2020-01-07 11:32:22,2020-01-07 11:32:22,0.239s,PASSED
+"click(findTestObject(""Fire-safety/kamin""))",Firefox 70.0,,2020-01-07 11:32:22,2020-01-07 11:32:22,0.235s,PASSED
+"click(findTestObject(""Fire-safety/ar denna""))",Firefox 70.0,,2020-01-07 11:32:22,2020-01-07 11:32:22,0.236s,PASSED
+"click(findTestObject(""Fire-safety/forvaras""))",Firefox 70.0,,2020-01-07 11:32:22,2020-01-07 11:32:23,0.238s,PASSED
+"uploadFile(findTestObject(""Fire-safety/Laddup build""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Firefox 70.0,,2020-01-07 11:32:23,2020-01-07 11:32:23,0.054s,PASSED
+"setText(findTestObject(""Fire-safety/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:23,2020-01-07 11:32:23,0.157s,PASSED
+"click(findTestObject(""Fire-safety/Nasta""))",Firefox 70.0,,2020-01-07 11:32:23,2020-01-07 11:32:23,0.268s,PASSED
+delay(2),Firefox 70.0,,2020-01-07 11:32:23,2020-01-07 11:32:25,2.003s,PASSED
+"uploadFile(findTestObject(""Photograph/Villan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.047s,PASSED
+"uploadFile(findTestObject(""Photograph/Altan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.039s,PASSED
+"uploadFile(findTestObject(""Photograph/Garage""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.054s,PASSED
+"uploadFile(findTestObject(""Photograph/Grunden""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.048s,PASSED
+"uploadFile(findTestObject(""Photograph/Eventuella""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.053s,PASSED
+"setText(findTestObject(""Photograph/Ovrig kommentar""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:25,0.130s,PASSED
+"click(findTestObject(""Photograph/Nasta""))",Firefox 70.0,,2020-01-07 11:32:25,2020-01-07 11:32:26,0.240s,PASSED
+"click(findTestObject(""Close/Nej Tack""))",Firefox 70.0,,2020-01-07 11:32:26,2020-01-07 11:32:26,0.297s,PASSED
+delay(4),Firefox 70.0,,2020-01-07 11:32:26,2020-01-07 11:32:30,4.006s,PASSED
+"click(findTestObject(""Skicka in""))",Firefox 70.0,,2020-01-07 11:32:30,2020-01-07 11:32:30,0.273s,PASSED
+"setText(findTestObject(""Ort och datum""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:32:30,2020-01-07 11:33:01,30.992s,FAILED
+,,,,,,
+Test Cases/Verify that the user can proceed when all important fields are filled,Firefox 70.0,,2020-01-07 11:33:01,2020-01-07 11:33:43,41.910s,PASSED
+"openBrowser("""")",Firefox 70.0,,2020-01-07 11:33:02,2020-01-07 11:33:08,5.959s,PASSED
+maximizeWindow(),Firefox 70.0,,2020-01-07 11:33:08,2020-01-07 11:33:08,0.265s,PASSED
+"navigateToUrl(""https://dev.lansforsakringar.smash.netzon.se/#/checklist"")",Firefox 70.0,,2020-01-07 11:33:08,2020-01-07 11:33:25,17.289s,PASSED
+"setText(findTestObject(""Personal Info/Namn""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:33:25,2020-01-07 11:33:26,0.205s,PASSED
+"setText(findTestObject(""Personal Info/Personnummer""), ""890521-5094"")",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.089s,PASSED
+"setText(findTestObject(""Personal Info/Utdelningsaddress""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.117s,PASSED
+"setText(findTestObject(""Personal Info/Postnummer""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.121s,PASSED
+"setText(findTestObject(""Personal Info/E-post""), ""Lorem ipsum dolor sit amet"")",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.119s,PASSED
+"click(findTestObject(""Personal Info/Inbrottslarm""))",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.253s,PASSED
+"click(findTestObject(""Personal Info/Nasta""))",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:26,0.253s,PASSED
+"click(findTestObject(""Kitchen/Nasta""))",Firefox 70.0,,2020-01-07 11:33:26,2020-01-07 11:33:27,0.275s,PASSED
+"click(findTestObject(""Laundry/Nasta""))",Firefox 70.0,,2020-01-07 11:33:27,2020-01-07 11:33:27,0.235s,PASSED
+"click(findTestObject(""Bathroom/Nasta""))",Firefox 70.0,,2020-01-07 11:33:27,2020-01-07 11:33:27,0.255s,PASSED
+"click(findTestObject(""Water Heater/Nasta""))",Firefox 70.0,,2020-01-07 11:33:27,2020-01-07 11:33:27,0.234s,PASSED
+"click(findTestObject(""Heat/Nasta""))",Firefox 70.0,,2020-01-07 11:33:27,2020-01-07 11:33:28,0.232s,PASSED
+"click(findTestObject(""Other-water/Nasta""))",Firefox 70.0,,2020-01-07 11:33:28,2020-01-07 11:33:28,0.247s,PASSED
+"click(findTestObject(""Fire-safety/Nasta""))",Firefox 70.0,,2020-01-07 11:33:28,2020-01-07 11:33:28,0.232s,PASSED
+"uploadFile(findTestObject(""Photograph/Villan""), ""C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"")",Firefox 70.0,,2020-01-07 11:33:28,2020-01-07 11:33:28,0.031s,PASSED
+"click(findTestObject(""Photograph/Nasta""))",Firefox 70.0,,2020-01-07 11:33:28,2020-01-07 11:33:28,0.247s,PASSED
+delay(4),Firefox 70.0,,2020-01-07 11:33:28,2020-01-07 11:33:32,4.002s,PASSED
+"click(findTestObject(""Close/Nej Tack""))",Firefox 70.0,,2020-01-07 11:33:32,2020-01-07 11:33:33,0.284s,PASSED
+delay(4),Firefox 70.0,,2020-01-07 11:33:33,2020-01-07 11:33:37,4.003s,PASSED
+"click(findTestObject(""Skicka in""))",Firefox 70.0,,2020-01-07 11:33:37,2020-01-07 11:33:37,0.275s,PASSED
+"setText(findTestObject(""Ort och datum""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:33:37,2020-01-07 11:33:37,0.165s,PASSED
+"setText(findTestObject(""Namn Textbox""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:33:37,2020-01-07 11:33:37,0.123s,PASSED
+"click(findTestObject(""Skicka In Popup""))",Firefox 70.0,,2020-01-07 11:33:37,2020-01-07 11:33:38,0.249s,PASSED
+delay(4),Firefox 70.0,,2020-01-07 11:33:38,2020-01-07 11:33:42,4.002s,PASSED
+closeBrowser(),Firefox 70.0,,2020-01-07 11:33:42,2020-01-07 11:33:43,1.584s,PASSED
+,,,,,,
+Test Cases/Verify that the user cannot proceed when important fields are not supplied,Firefox 70.0,,2020-01-07 11:33:43,2020-01-07 11:34:18,34.399s,FAILED
+"openBrowser("""")",Firefox 70.0,,2020-01-07 11:33:44,2020-01-07 11:33:49,5.282s,PASSED
+maximizeWindow(),Firefox 70.0,,2020-01-07 11:33:49,2020-01-07 11:33:49,0.262s,PASSED
+"navigateToUrl(""https://dev.lansforsakringar.smash.netzon.se/#/checklist"")",Firefox 70.0,,2020-01-07 11:33:49,2020-01-07 11:34:16,27.011s,PASSED
+"setText(findTestObject(""Page_Digital villabesiktning/input_Frskringsnummer_ng-untou""), ""Lorem"")",Firefox 70.0,,2020-01-07 11:34:16,2020-01-07 11:34:16,0.143s,PASSED
+"setText(findTestObject(""Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-valid""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:34:16,2020-01-07 11:34:16,0.162s,PASSED
+"setText(findTestObject(""Object Repository/Page_Digital villabesiktning/input_Telefon dagtid_ng-untouc""), ""123465789"")",Firefox 70.0,,2020-01-07 11:34:16,2020-01-07 11:34:17,0.075s,PASSED
+"setText(findTestObject(""Object Repository/Page_Digital villabesiktning/input_Mobiltelefon_ng-untouche""), ""123456789"")",Firefox 70.0,,2020-01-07 11:34:17,2020-01-07 11:34:17,0.079s,PASSED
+"setText(findTestObject(""Object Repository/Page_Digital villabesiktning/input_Villans byggr_ng-untouch""), ""Lorem Ipsum Dolor Sit Amet"")",Firefox 70.0,,2020-01-07 11:34:17,2020-01-07 11:34:17,0.124s,PASSED
+"click(findTestObject(""Object Repository/Page_Digital villabesiktning/button_Skicka in""))",Firefox 70.0,,2020-01-07 11:34:17,2020-01-07 11:34:17,0.310s,PASSED
+acceptAlert(),Firefox 70.0,,2020-01-07 11:34:17,2020-01-07 11:34:18,0.556s,FAILED

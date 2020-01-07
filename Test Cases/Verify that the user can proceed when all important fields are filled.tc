@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify that the user can proceed when all important fields are filled</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9bd7b7c9-22fb-4304-acc0-a22b7f7a03fb</testCaseGuid>
+</TestCaseEntity>

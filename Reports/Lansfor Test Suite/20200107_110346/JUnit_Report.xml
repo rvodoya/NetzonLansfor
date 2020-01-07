@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Lansfor Test Suite" time="142" tests="2" failures="0" errors="0">
+   <testsuite name="Lansfor Test Suite" tests="2" failures="0" errors="0" time="142" timestamp="2020-01-07 11:03:56" hostname="netzon.rhobert - netzon-jlaw" id="Test Suites/Lansfor Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansfor Test Suite\\20200107_110346"/>
+         <property name="logFiles" value="C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansfor Test Suite\\20200107_110346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="netzon.rhobert - netzon-jlaw"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="b3834f9521c856aa18fe68c38ed79a50"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Fill all the fields" classname="Test Cases/Fill all the fields" status="PASSED">
+         <system-out><![CDATA[2020-01-07 11:03:56 - [TEST_CASE][PASSED] - Test Cases/Fill all the fields: Test Cases/Fill all the fields
+
+2020-01-07 11:03:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-07 11:03:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-07 11:03:58 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-07 11:04:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-07 11:04:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-07 11:04:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-07 11:04:04 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.lansforsakringar.smash.netzon.se/#/checklist"): Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 11:04:27 - [MESSAGE][PASSED] - Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 11:04:27 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Namn"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 11:04:28 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 11:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Personnummer"), "890521-5094"): Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 11:04:28 - [MESSAGE][PASSED] - Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 11:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Forsakringnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Forsakringnummer'
+
+2020-01-07 11:04:29 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Forsakringnummer'
+
+2020-01-07 11:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Utdelningsaddress"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 11:04:29 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 11:04:29 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Postnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 11:04:30 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 11:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Telefon"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Telefon'
+
+2020-01-07 11:04:30 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Telefon'
+
+2020-01-07 11:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Mobiltelefon"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Mobiltelefon'
+
+2020-01-07 11:04:31 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Mobiltelefon'
+
+2020-01-07 11:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/E-post"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 11:04:31 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 11:04:31 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Villans"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Villans'
+
+2020-01-07 11:04:32 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Villans'
+
+2020-01-07 11:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Huvudsaktlig"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Huvudsaktlig'
+
+2020-01-07 11:04:32 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Huvudsaktlig'
+
+2020-01-07 11:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Inbrottslarm")): Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 11:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 11:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Typ Av"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Typ Av'
+
+2020-01-07 11:04:33 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Typ Av'
+
+2020-01-07 11:04:33 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Personal Info/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Personal Info/Laddup build'
+
+2020-01-07 11:04:33 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Personal Info/Laddup build'
+
+2020-01-07 11:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Ovrig"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Ovrig'
+
+2020-01-07 11:04:33 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Ovrig'
+
+2020-01-07 11:04:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Nasta")): Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 11:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 11:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("Kitchen/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Bygg'
+
+2020-01-07 11:04:36 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Bygg'
+
+2020-01-07 11:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Ar nagon")): Object: 'Object Repository/Kitchen/Ar nagon' is clicked on
+
+2020-01-07 11:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Ar nagon' is clicked on
+
+2020-01-07 11:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Finns")): Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 11:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 11:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/kyl och frys")): Object: 'Object Repository/Kitchen/kyl och frys' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/kyl och frys' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Vatten")): Object: 'Object Repository/Kitchen/Vatten' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Vatten' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Finns")): Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/samtliga")): Object: 'Object Repository/Kitchen/samtliga' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/samtliga' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/alla ror")): Object: 'Object Repository/Kitchen/alla ror' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/alla ror' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/fria fran")): Object: 'Object Repository/Kitchen/fria fran' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/fria fran' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/stumt fastmorande")): Object: 'Object Repository/Kitchen/stumt fastmorande' is clicked on
+
+2020-01-07 11:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/stumt fastmorande' is clicked on
+
+2020-01-07 11:04:37 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Kitchen/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Kitchen/Laddup build'
+
+2020-01-07 11:04:38 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Kitchen/Laddup build'
+
+2020-01-07 11:04:38 - [TEST_STEP][PASSED] - setText(findTestObject("Kitchen/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Ovrig kommentar'
+
+2020-01-07 11:04:38 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Ovrig kommentar'
+
+2020-01-07 11:04:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:40 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Nasta")): Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 11:04:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 11:04:40 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Bygg'
+
+2020-01-07 11:04:41 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Bygg'
+
+2020-01-07 11:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Ytmaterial"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ytmaterial'
+
+2020-01-07 11:04:41 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ytmaterial'
+
+2020-01-07 11:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/renovering")): Object: 'Object Repository/Laundry/renovering' is clicked on
+
+2020-01-07 11:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/renovering' is clicked on
+
+2020-01-07 11:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/vattentat")): Object: 'Object Repository/Laundry/vattentat' is clicked on
+
+2020-01-07 11:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/vattentat' is clicked on
+
+2020-01-07 11:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/narmast")): Object: 'Object Repository/Laundry/narmast' is clicked on
+
+2020-01-07 11:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/narmast' is clicked on
+
+2020-01-07 11:04:42 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Finns det")): Object: 'Object Repository/Laundry/Finns det' is clicked on
+
+2020-01-07 11:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Finns det' is clicked on
+
+2020-01-07 11:04:42 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Laundry/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Laundry/Laddup build'
+
+2020-01-07 11:04:42 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Laundry/Laddup build'
+
+2020-01-07 11:04:42 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ovrig kommentar'
+
+2020-01-07 11:04:42 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ovrig kommentar'
+
+2020-01-07 11:04:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Nasta")): Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 11:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 11:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Bygg'
+
+2020-01-07 11:04:45 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Bygg'
+
+2020-01-07 11:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Ytmaterial"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Ytmaterial'
+
+2020-01-07 11:04:45 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Ytmaterial'
+
+2020-01-07 11:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/renovering")): Object: 'Object Repository/Bathroom/renovering' is clicked on
+
+2020-01-07 11:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/renovering' is clicked on
+
+2020-01-07 11:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/duschstang")): Object: 'Object Repository/Bathroom/duschstang' is clicked on
+
+2020-01-07 11:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/duschstang' is clicked on
+
+2020-01-07 11:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/golvytan")): Object: 'Object Repository/Bathroom/golvytan' is clicked on
+
+2020-01-07 11:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/golvytan' is clicked on
+
+2020-01-07 11:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/kann pa klamringen")): Object: 'Object Repository/Bathroom/kann pa klamringen' is clicked on
+
+2020-01-07 11:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/kann pa klamringen' is clicked on
+
+2020-01-07 11:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Finns det nagra")): Object: 'Object Repository/Bathroom/Finns det nagra' is clicked on
+
+2020-01-07 11:04:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Finns det nagra' is clicked on
+
+2020-01-07 11:04:46 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Bathroom/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Bathroom/Laddup build'
+
+2020-01-07 11:04:46 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Bathroom/Laddup build'
+
+2020-01-07 11:04:46 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Information"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Information'
+
+2020-01-07 11:04:47 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Information'
+
+2020-01-07 11:04:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Nasta")): Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 11:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 11:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Water Heater/var i huset"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/var i huset'
+
+2020-01-07 11:04:49 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/var i huset'
+
+2020-01-07 11:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Varvattemenberedaren")): Object: 'Object Repository/Water Heater/Varvattemenberedaren' is clicked on
+
+2020-01-07 11:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Varvattemenberedaren' is clicked on
+
+2020-01-07 11:04:49 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/golvytan")): Object: 'Object Repository/Water Heater/golvytan' is clicked on
+
+2020-01-07 11:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/golvytan' is clicked on
+
+2020-01-07 11:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("Water Heater/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/Ovrig kommentar'
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/Ovrig kommentar'
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Nasta")): Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Heat/i huset")): Object: 'Object Repository/Heat/i huset' is clicked on
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/i huset' is clicked on
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Heat/star")): Object: 'Object Repository/Heat/star' is clicked on
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/star' is clicked on
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Ar det")): Object: 'Object Repository/Heat/Ar det' is clicked on
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Ar det' is clicked on
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Heat/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Heat/Laddup build'
+
+2020-01-07 11:04:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Heat/Laddup build'
+
+2020-01-07 11:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Heat/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Heat/Ovrig kommentar'
+
+2020-01-07 11:04:51 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Heat/Ovrig kommentar'
+
+2020-01-07 11:04:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Nasta")): Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 11:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 11:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/finns huvudav")): Object: 'Object Repository/Other-water/finns huvudav' is clicked on
+
+2020-01-07 11:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/finns huvudav' is clicked on
+
+2020-01-07 11:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Ar vatten")): Object: 'Object Repository/Other-water/Ar vatten' is clicked on
+
+2020-01-07 11:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Ar vatten' is clicked on
+
+2020-01-07 11:04:53 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/finns vattem")): Object: 'Object Repository/Other-water/finns vattem' is clicked on
+
+2020-01-07 11:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/finns vattem' is clicked on
+
+2020-01-07 11:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("Other-water/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Other-water/Ovrig kommentar'
+
+2020-01-07 11:04:54 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Other-water/Ovrig kommentar'
+
+2020-01-07 11:04:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Nasta")): Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 11:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 11:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/brandvarnare")): Object: 'Object Repository/Fire-safety/brandvarnare' is clicked on
+
+2020-01-07 11:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/brandvarnare' is clicked on
+
+2020-01-07 11:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/branslackare")): Object: 'Object Repository/Fire-safety/branslackare' is clicked on
+
+2020-01-07 11:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/branslackare' is clicked on
+
+2020-01-07 11:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/jordfelsbytare")): Object: 'Object Repository/Fire-safety/jordfelsbytare' is clicked on
+
+2020-01-07 11:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/jordfelsbytare' is clicked on
+
+2020-01-07 11:04:56 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/kamin")): Object: 'Object Repository/Fire-safety/kamin' is clicked on
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/kamin' is clicked on
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/ar denna")): Object: 'Object Repository/Fire-safety/ar denna' is clicked on
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/ar denna' is clicked on
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/forvaras")): Object: 'Object Repository/Fire-safety/forvaras' is clicked on
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/forvaras' is clicked on
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Fire-safety/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Fire-safety/Laddup build'
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Fire-safety/Laddup build'
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("Fire-safety/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Fire-safety/Ovrig kommentar'
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Fire-safety/Ovrig kommentar'
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/Nasta")): Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 11:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 11:04:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 11:04:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 11:04:59 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Villan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Altan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Photograph/Altan'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Photograph/Altan'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Garage"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Photograph/Garage'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Photograph/Garage'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Grunden"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Photograph/Grunden'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Photograph/Grunden'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Eventuella"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Photograph/Eventuella'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Photograph/Eventuella'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("Photograph/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Photograph/Ovrig kommentar'
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Photograph/Ovrig kommentar'
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Photograph/Nasta")): Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 11:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 11:05:00 - [TEST_STEP][PASSED] - click(findTestObject("Close/Nej Tack")): Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 11:05:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 11:05:01 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 11:05:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 11:05:05 - [TEST_STEP][PASSED] - click(findTestObject("Skicka in")): Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 11:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 11:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Ort och datum"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 11:05:05 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 11:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("Namn Textbox"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 11:05:06 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 11:05:06 - [TEST_STEP][PASSED] - click(findTestObject("Skicka In Popup")): Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 11:05:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 11:05:06 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 11:05:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 11:05:10 - [TEST_STEP][PASSED] - click(findTestObject("Slipp")): Object: 'Object Repository/Slipp' is clicked on
+
+2020-01-07 11:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Slipp' is clicked on
+
+2020-01-07 11:05:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-07 11:05:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Fill important fields" classname="Test Cases/Fill important fields" status="PASSED">
+         <system-out><![CDATA[2020-01-07 11:05:15 - [TEST_CASE][PASSED] - Test Cases/Fill important fields: Test Cases/Fill important fields
+
+2020-01-07 11:05:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-07 11:05:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-07 11:05:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-07 11:05:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-07 11:05:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-07 11:05:19 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.lansforsakringar.smash.netzon.se/#/checklist"): Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 11:05:59 - [MESSAGE][PASSED] - Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 11:05:59 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Namn"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 11:06:00 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 11:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Personnummer"), "890521-5094"): Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 11:06:00 - [MESSAGE][PASSED] - Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 11:06:00 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Utdelningsaddress"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 11:06:01 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 11:06:01 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Postnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 11:06:02 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 11:06:02 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/E-post"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 11:06:02 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 11:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Inbrottslarm")): Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 11:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 11:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Nasta")): Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Nasta")): Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Nasta")): Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Nasta")): Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Nasta")): Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Nasta")): Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Nasta")): Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 11:06:03 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/Nasta")): Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 11:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 11:06:04 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Villan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 11:06:04 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 11:06:04 - [TEST_STEP][PASSED] - click(findTestObject("Photograph/Nasta")): Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 11:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 11:06:04 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 11:06:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 11:06:08 - [TEST_STEP][PASSED] - click(findTestObject("Close/Nej Tack")): Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 11:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 11:06:08 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 11:06:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 11:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Skicka in")): Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 11:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 11:06:12 - [TEST_STEP][PASSED] - setText(findTestObject("Ort och datum"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 11:06:13 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 11:06:13 - [TEST_STEP][PASSED] - setText(findTestObject("Namn Textbox"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 11:06:13 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 11:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Skicka In Popup")): Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 11:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 11:06:13 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 11:06:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 11:06:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-07 11:06:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-07 11:03:56 - [TEST_SUITE][PASSED] - Lansfor Test Suite: Test Cases/Fill important fields]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Lansforsakringar Test Suite" time="145" tests="2" failures="1" errors="0">
+   <testsuite name="Lansforsakringar Test Suite" tests="2" failures="1" errors="0" time="145" timestamp="2020-01-07 13:23:47" hostname="netzon.rhobert - netzon-jlaw" id="Test Suites/Lansforsakringar Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337"/>
+         <property name="logFiles" value="C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337\\1578374770763.png, C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337\\1578374771496.png"/>
+         <property name="hostName" value="netzon.rhobert - netzon-jlaw"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="10.0.75.1"/>
+         <property name="sessionId" value="c598509389999ac752dd14362bcca2b4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Verify that the user can proceed when filling all fields" classname="Test Cases/Verify that the user can proceed when filling all fields" status="PASSED">
+         <system-out><![CDATA[2020-01-07 13:23:47 - [TEST_CASE][PASSED] - Test Cases/Verify that the user can proceed when filling all fields: Test Cases/Verify that the user can proceed when filling all fields
+
+2020-01-07 13:23:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-07 13:23:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-07 13:23:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-07 13:23:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-07 13:23:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-07 13:23:56 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-07 13:23:56 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.lansforsakringar.smash.netzon.se/#/checklist"): Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:24:13 - [MESSAGE][PASSED] - Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Namn"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 13:24:14 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 13:24:14 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Personnummer"), "890521-5094"): Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 13:24:14 - [MESSAGE][PASSED] - Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 13:24:14 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Forsakringnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Forsakringnummer'
+
+2020-01-07 13:24:15 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Forsakringnummer'
+
+2020-01-07 13:24:15 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Utdelningsaddress"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 13:24:16 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 13:24:16 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Postnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 13:24:17 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 13:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Telefon"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Telefon'
+
+2020-01-07 13:24:18 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Telefon'
+
+2020-01-07 13:24:18 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Mobiltelefon"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Mobiltelefon'
+
+2020-01-07 13:24:20 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Mobiltelefon'
+
+2020-01-07 13:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/E-post"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 13:24:20 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 13:24:20 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Villans"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Villans'
+
+2020-01-07 13:24:21 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Villans'
+
+2020-01-07 13:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Huvudsaktlig"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Huvudsaktlig'
+
+2020-01-07 13:24:21 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Huvudsaktlig'
+
+2020-01-07 13:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Inbrottslarm")): Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 13:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 13:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Typ Av"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Typ Av'
+
+2020-01-07 13:24:22 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Typ Av'
+
+2020-01-07 13:24:22 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Personal Info/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Personal Info/Laddup build'
+
+2020-01-07 13:24:22 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Personal Info/Laddup build'
+
+2020-01-07 13:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Ovrig"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Ovrig'
+
+2020-01-07 13:24:23 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Personal Info/Ovrig'
+
+2020-01-07 13:24:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:25 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Nasta")): Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 13:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 13:24:25 - [TEST_STEP][PASSED] - setText(findTestObject("Kitchen/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Bygg'
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Bygg'
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Ar nagon")): Object: 'Object Repository/Kitchen/Ar nagon' is clicked on
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Ar nagon' is clicked on
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Finns")): Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/kyl och frys")): Object: 'Object Repository/Kitchen/kyl och frys' is clicked on
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/kyl och frys' is clicked on
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Vatten")): Object: 'Object Repository/Kitchen/Vatten' is clicked on
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Vatten' is clicked on
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Finns")): Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 13:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Finns' is clicked on
+
+2020-01-07 13:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/samtliga")): Object: 'Object Repository/Kitchen/samtliga' is clicked on
+
+2020-01-07 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/samtliga' is clicked on
+
+2020-01-07 13:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/alla ror")): Object: 'Object Repository/Kitchen/alla ror' is clicked on
+
+2020-01-07 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/alla ror' is clicked on
+
+2020-01-07 13:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/fria fran")): Object: 'Object Repository/Kitchen/fria fran' is clicked on
+
+2020-01-07 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/fria fran' is clicked on
+
+2020-01-07 13:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/stumt fastmorande")): Object: 'Object Repository/Kitchen/stumt fastmorande' is clicked on
+
+2020-01-07 13:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/stumt fastmorande' is clicked on
+
+2020-01-07 13:24:27 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Kitchen/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Kitchen/Laddup build'
+
+2020-01-07 13:24:27 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Kitchen/Laddup build'
+
+2020-01-07 13:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Kitchen/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Ovrig kommentar'
+
+2020-01-07 13:24:28 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Kitchen/Ovrig kommentar'
+
+2020-01-07 13:24:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:30 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Nasta")): Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 13:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 13:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Bygg'
+
+2020-01-07 13:24:30 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Bygg'
+
+2020-01-07 13:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Ytmaterial"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ytmaterial'
+
+2020-01-07 13:24:31 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ytmaterial'
+
+2020-01-07 13:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/renovering")): Object: 'Object Repository/Laundry/renovering' is clicked on
+
+2020-01-07 13:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/renovering' is clicked on
+
+2020-01-07 13:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/vattentat")): Object: 'Object Repository/Laundry/vattentat' is clicked on
+
+2020-01-07 13:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/vattentat' is clicked on
+
+2020-01-07 13:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/narmast")): Object: 'Object Repository/Laundry/narmast' is clicked on
+
+2020-01-07 13:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/narmast' is clicked on
+
+2020-01-07 13:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Finns det")): Object: 'Object Repository/Laundry/Finns det' is clicked on
+
+2020-01-07 13:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Finns det' is clicked on
+
+2020-01-07 13:24:32 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Laundry/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Laundry/Laddup build'
+
+2020-01-07 13:24:32 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Laundry/Laddup build'
+
+2020-01-07 13:24:32 - [TEST_STEP][PASSED] - setText(findTestObject("Laundry/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ovrig kommentar'
+
+2020-01-07 13:24:32 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Laundry/Ovrig kommentar'
+
+2020-01-07 13:24:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Nasta")): Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 13:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 13:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Bygg"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Bygg'
+
+2020-01-07 13:24:35 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Bygg'
+
+2020-01-07 13:24:35 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Ytmaterial"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Ytmaterial'
+
+2020-01-07 13:24:35 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Ytmaterial'
+
+2020-01-07 13:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/renovering")): Object: 'Object Repository/Bathroom/renovering' is clicked on
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/renovering' is clicked on
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/duschstang")): Object: 'Object Repository/Bathroom/duschstang' is clicked on
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/duschstang' is clicked on
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/golvytan")): Object: 'Object Repository/Bathroom/golvytan' is clicked on
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/golvytan' is clicked on
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/kann pa klamringen")): Object: 'Object Repository/Bathroom/kann pa klamringen' is clicked on
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/kann pa klamringen' is clicked on
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Finns det nagra")): Object: 'Object Repository/Bathroom/Finns det nagra' is clicked on
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Finns det nagra' is clicked on
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Bathroom/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Bathroom/Laddup build'
+
+2020-01-07 13:24:36 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Bathroom/Laddup build'
+
+2020-01-07 13:24:36 - [TEST_STEP][PASSED] - setText(findTestObject("Bathroom/Information"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Information'
+
+2020-01-07 13:24:37 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Bathroom/Information'
+
+2020-01-07 13:24:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Nasta")): Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 13:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 13:24:39 - [TEST_STEP][PASSED] - setText(findTestObject("Water Heater/var i huset"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/var i huset'
+
+2020-01-07 13:24:40 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/var i huset'
+
+2020-01-07 13:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Varvattemenberedaren")): Object: 'Object Repository/Water Heater/Varvattemenberedaren' is clicked on
+
+2020-01-07 13:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Varvattemenberedaren' is clicked on
+
+2020-01-07 13:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/golvytan")): Object: 'Object Repository/Water Heater/golvytan' is clicked on
+
+2020-01-07 13:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/golvytan' is clicked on
+
+2020-01-07 13:24:40 - [TEST_STEP][PASSED] - setText(findTestObject("Water Heater/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/Ovrig kommentar'
+
+2020-01-07 13:24:40 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Water Heater/Ovrig kommentar'
+
+2020-01-07 13:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Nasta")): Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 13:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 13:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Heat/i huset")): Object: 'Object Repository/Heat/i huset' is clicked on
+
+2020-01-07 13:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/i huset' is clicked on
+
+2020-01-07 13:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Heat/star")): Object: 'Object Repository/Heat/star' is clicked on
+
+2020-01-07 13:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/star' is clicked on
+
+2020-01-07 13:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Ar det")): Object: 'Object Repository/Heat/Ar det' is clicked on
+
+2020-01-07 13:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Ar det' is clicked on
+
+2020-01-07 13:24:41 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Heat/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Heat/Laddup build'
+
+2020-01-07 13:24:41 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Heat/Laddup build'
+
+2020-01-07 13:24:41 - [TEST_STEP][PASSED] - setText(findTestObject("Heat/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Heat/Ovrig kommentar'
+
+2020-01-07 13:24:41 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Heat/Ovrig kommentar'
+
+2020-01-07 13:24:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Nasta")): Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 13:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 13:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/finns huvudav")): Object: 'Object Repository/Other-water/finns huvudav' is clicked on
+
+2020-01-07 13:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/finns huvudav' is clicked on
+
+2020-01-07 13:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Ar vatten")): Object: 'Object Repository/Other-water/Ar vatten' is clicked on
+
+2020-01-07 13:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Ar vatten' is clicked on
+
+2020-01-07 13:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/finns vattem")): Object: 'Object Repository/Other-water/finns vattem' is clicked on
+
+2020-01-07 13:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/finns vattem' is clicked on
+
+2020-01-07 13:24:44 - [TEST_STEP][PASSED] - setText(findTestObject("Other-water/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Other-water/Ovrig kommentar'
+
+2020-01-07 13:24:44 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Other-water/Ovrig kommentar'
+
+2020-01-07 13:24:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Nasta")): Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 13:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 13:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/brandvarnare")): Object: 'Object Repository/Fire-safety/brandvarnare' is clicked on
+
+2020-01-07 13:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/brandvarnare' is clicked on
+
+2020-01-07 13:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/branslackare")): Object: 'Object Repository/Fire-safety/branslackare' is clicked on
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/branslackare' is clicked on
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/jordfelsbytare")): Object: 'Object Repository/Fire-safety/jordfelsbytare' is clicked on
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/jordfelsbytare' is clicked on
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/kamin")): Object: 'Object Repository/Fire-safety/kamin' is clicked on
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/kamin' is clicked on
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/ar denna")): Object: 'Object Repository/Fire-safety/ar denna' is clicked on
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/ar denna' is clicked on
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/forvaras")): Object: 'Object Repository/Fire-safety/forvaras' is clicked on
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/forvaras' is clicked on
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Fire-safety/Laddup build"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Fire-safety/Laddup build'
+
+2020-01-07 13:24:47 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Fire-safety/Laddup build'
+
+2020-01-07 13:24:47 - [TEST_STEP][PASSED] - setText(findTestObject("Fire-safety/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Fire-safety/Ovrig kommentar'
+
+2020-01-07 13:24:48 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Fire-safety/Ovrig kommentar'
+
+2020-01-07 13:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/Nasta")): Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 13:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 13:24:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Villan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Altan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Photograph/Altan'
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\chateau.jpg' sent to object: 'Object Repository/Photograph/Altan'
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Garage"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Photograph/Garage'
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan2.jpg' sent to object: 'Object Repository/Photograph/Garage'
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Grunden"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Photograph/Grunden'
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\busan1.jpg' sent to object: 'Object Repository/Photograph/Grunden'
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Eventuella"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Photograph/Eventuella'
+
+2020-01-07 13:24:50 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\petra.jpg' sent to object: 'Object Repository/Photograph/Eventuella'
+
+2020-01-07 13:24:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-07 13:24:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-07 13:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("Photograph/Ovrig kommentar"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Photograph/Ovrig kommentar'
+
+2020-01-07 13:24:56 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Photograph/Ovrig kommentar'
+
+2020-01-07 13:24:56 - [TEST_STEP][PASSED] - click(findTestObject("Photograph/Nasta")): Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 13:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 13:24:56 - [TEST_STEP][PASSED] - click(findTestObject("Close/Nej Tack")): Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 13:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 13:24:56 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 13:25:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 13:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Skicka in")): Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 13:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 13:25:00 - [TEST_STEP][PASSED] - setText(findTestObject("Ort och datum"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 13:25:01 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 13:25:01 - [TEST_STEP][PASSED] - setText(findTestObject("Namn Textbox"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 13:25:01 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 13:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Skicka In Popup")): Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 13:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 13:25:01 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 13:25:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 13:25:05 - [TEST_STEP][PASSED] - click(findTestObject("Slipp")): Object: 'Object Repository/Slipp' is clicked on
+
+2020-01-07 13:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Slipp' is clicked on
+
+2020-01-07 13:25:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-07 13:25:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that the user can proceed when all important fields are filled" classname="Test Cases/Verify that the user can proceed when all important fields are filled" status="PASSED">
+         <system-out><![CDATA[2020-01-07 13:25:10 - [TEST_CASE][PASSED] - Test Cases/Verify that the user can proceed when all important fields are filled: Test Cases/Verify that the user can proceed when all important fields are filled
+
+2020-01-07 13:25:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-07 13:25:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-07 13:25:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-07 13:25:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-07 13:25:15 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-07 13:25:15 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.lansforsakringar.smash.netzon.se/#/checklist"): Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:25:29 - [MESSAGE][PASSED] - Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:25:29 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Namn"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 13:25:30 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Namn'
+
+2020-01-07 13:25:30 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Personnummer"), "890521-5094"): Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 13:25:31 - [MESSAGE][PASSED] - Text '890521-5094' is set on object 'Object Repository/Personal Info/Personnummer'
+
+2020-01-07 13:25:31 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Utdelningsaddress"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 13:25:31 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Utdelningsaddress'
+
+2020-01-07 13:25:31 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/Postnummer"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 13:25:32 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/Postnummer'
+
+2020-01-07 13:25:32 - [TEST_STEP][PASSED] - setText(findTestObject("Personal Info/E-post"), "Lorem ipsum dolor sit amet"): Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Text 'Lorem ipsum dolor sit amet' is set on object 'Object Repository/Personal Info/E-post'
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Inbrottslarm")): Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Inbrottslarm' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Personal Info/Nasta")): Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Personal Info/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Kitchen/Nasta")): Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Kitchen/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Laundry/Nasta")): Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Laundry/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Bathroom/Nasta")): Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Bathroom/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Water Heater/Nasta")): Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Water Heater/Nasta' is clicked on
+
+2020-01-07 13:25:33 - [TEST_STEP][PASSED] - click(findTestObject("Heat/Nasta")): Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Heat/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Other-water/Nasta")): Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Other-water/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Fire-safety/Nasta")): Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Fire-safety/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Photograph/Villan"), "C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg"): File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 13:25:34 - [MESSAGE][PASSED] - File 'C:\Users\netzon.rhobert\git\NetzonLansfor\Data Files\junker.jpg' sent to object: 'Object Repository/Photograph/Villan'
+
+2020-01-07 13:25:34 - [TEST_STEP][PASSED] - click(findTestObject("Photograph/Nasta")): Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Photograph/Nasta' is clicked on
+
+2020-01-07 13:25:34 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 13:25:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 13:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Close/Nej Tack")): Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 13:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Close/Nej Tack' is clicked on
+
+2020-01-07 13:25:38 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 13:25:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 13:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Skicka in")): Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 13:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka in' is clicked on
+
+2020-01-07 13:25:42 - [TEST_STEP][PASSED] - setText(findTestObject("Ort och datum"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 13:25:43 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Ort och datum'
+
+2020-01-07 13:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Namn Textbox"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 13:25:44 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Namn Textbox'
+
+2020-01-07 13:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Skicka In Popup")): Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Skicka In Popup' is clicked on
+
+2020-01-07 13:25:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-01-07 13:25:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-01-07 13:25:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-07 13:25:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify that the user cannot proceed when important fields are not supplied" classname="Test Cases/Verify that the user cannot proceed when important fields are not supplied" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify that the user cannot proceed when important fields are not supplied FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-07 13:25:49 - [TEST_CASE][FAILED] - Test Cases/Verify that the user cannot proceed when important fields are not supplied: Test Cases/Verify that the user cannot proceed when important fields are not supplied FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)
+
+
+2020-01-07 13:25:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-01-07 13:25:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-07 13:25:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-01-07 13:25:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-07 13:25:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-07 13:25:53 - [TEST_STEP][PASSED] - navigateToUrl("https://dev.lansforsakringar.smash.netzon.se/#/checklist"): Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:26:08 - [MESSAGE][PASSED] - Navigate to 'https://dev.lansforsakringar.smash.netzon.se/#/checklist' successfully
+
+2020-01-07 13:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Digital villabesiktning/input_Frskringsnummer_ng-untou"), "Lorem"): Text 'Lorem' is set on object 'Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-untou'
+
+2020-01-07 13:26:08 - [MESSAGE][PASSED] - Text 'Lorem' is set on object 'Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-untou'
+
+2020-01-07 13:26:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-valid"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-valid'
+
+2020-01-07 13:26:09 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Page_Digital villabesiktning/input_Frskringsnummer_ng-valid'
+
+2020-01-07 13:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Digital villabesiktning/input_Telefon dagtid_ng-untouc"), "123465789"): Text '123465789' is set on object 'Object Repository/Page_Digital villabesiktning/input_Telefon dagtid_ng-untouc'
+
+2020-01-07 13:26:09 - [MESSAGE][PASSED] - Text '123465789' is set on object 'Object Repository/Page_Digital villabesiktning/input_Telefon dagtid_ng-untouc'
+
+2020-01-07 13:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Digital villabesiktning/input_Mobiltelefon_ng-untouche"), "123456789"): Text '123456789' is set on object 'Object Repository/Page_Digital villabesiktning/input_Mobiltelefon_ng-untouche'
+
+2020-01-07 13:26:09 - [MESSAGE][PASSED] - Text '123456789' is set on object 'Object Repository/Page_Digital villabesiktning/input_Mobiltelefon_ng-untouche'
+
+2020-01-07 13:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Digital villabesiktning/input_Villans byggr_ng-untouch"), "Lorem Ipsum Dolor Sit Amet"): Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Page_Digital villabesiktning/input_Villans byggr_ng-untouch'
+
+2020-01-07 13:26:10 - [MESSAGE][PASSED] - Text 'Lorem Ipsum Dolor Sit Amet' is set on object 'Object Repository/Page_Digital villabesiktning/input_Villans byggr_ng-untouch'
+
+2020-01-07 13:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Digital villabesiktning/button_Skicka in")): Object: 'Object Repository/Page_Digital villabesiktning/button_Skicka in' is clicked on
+
+2020-01-07 13:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Digital villabesiktning/button_Skicka in' is clicked on
+
+2020-01-07 13:26:10 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)
+
+
+2020-01-07 13:26:11 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337\\1578374770763.png]]
+
+2020-01-07 13:26:12 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+[[ATTACHMENT|C:\\Users\\netzon.rhobert\\git\\NetzonLansfor\\Reports\\Lansforsakringar Test Suite\\20200107_132337\\1578374771496.png]]
+
+2020-01-07 13:26:12 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)]]></system-out>
+         <system-err><![CDATA[2020-01-07 13:25:49 - [TEST_CASE][FAILED] - Test Cases/Verify that the user cannot proceed when important fields are not supplied: Test Cases/Verify that the user cannot proceed when important fields are not supplied FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-07 13:23:47 - [TEST_SUITE][FAILED] - Lansforsakringar Test Suite: Test Cases/Verify that the user cannot proceed when important fields are not supplied FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-07 13:23:47 - [TEST_SUITE][FAILED] - Lansforsakringar Test Suite: Test Cases/Verify that the user cannot proceed when important fields are not supplied FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$6.call(Unknown Source)
+	at Verify that the user cannot proceed when important fields are not supplied.run(Verify that the user cannot proceed when important fields are not supplied:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578374622396.run(TempTestSuite1578374622396.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
